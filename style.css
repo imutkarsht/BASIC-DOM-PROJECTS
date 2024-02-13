@@ -5,6 +5,11 @@
 }
 a{
     text-decoration: none;
+    color: #fff;
+}
+nav i{
+    font-size: 2rem;
+    padding-left: 2vw;
 }
 nav{
     color: #fff;
@@ -82,6 +87,9 @@ nav h2{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    nav h2{
+        font-size: 1.4rem;
     }
 }
 @media (max-width:400px){

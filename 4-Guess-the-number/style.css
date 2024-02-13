@@ -6,7 +6,10 @@
 html {
     font-family: sans-serif;
   }
-  
+  a{
+    text-decoration: none;
+    color: white;
+  }
   body{
     display: flex;
     justify-content: center;
@@ -24,7 +27,10 @@ nav{
     padding: 10px 20px;
     width: 100%;
 }
-
+nav i{
+  font-size: 2rem;
+  padding-left: 2vw;
+}
 nav h2{
     width: 100%;
     display: flex;

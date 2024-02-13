@@ -14,7 +14,10 @@
       flex-direction: column;
       gap: 10vh;
   }
-  
+  a{
+    text-decoration: none;
+    color: white;
+  }
   nav{
       color: #fff;
       background-color: #0378d1;
@@ -33,7 +36,10 @@
       font-size: 1.5rem;
       text-transform: uppercase;
   }
-
+  nav i{
+    font-size: 2rem;
+    padding-left: 2vw;
+}
   .container{
     display: flex;
     flex-direction: column;

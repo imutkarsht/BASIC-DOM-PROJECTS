@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+a{
+    text-decoration: none;
+    color: #fff;
+}
 nav{
     color: #fff;
     background-color: #0378d1;
@@ -26,6 +29,10 @@ nav h2{
     align-items: center;
     font-size: 1.5rem;
     text-transform: uppercase;
+}
+nav i{
+    font-size: 2rem;
+    padding-left: 2vw;
 }
 
 .container {

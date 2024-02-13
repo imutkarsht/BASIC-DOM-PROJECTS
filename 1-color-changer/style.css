@@ -13,6 +13,14 @@ body{
 span {
     display: block;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
+nav i{
+    font-size: 2rem;
+    padding-left: 2vw;
+}
 nav{
     color: #fff;
     background-color: #0378d1;
