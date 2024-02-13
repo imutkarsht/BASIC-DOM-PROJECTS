@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10vh;
+}
+span {
+    display: block;
+}
+nav{
+    color: #fff;
+    background-color: #0378d1;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #0e0b0b;
+    padding: 15px 20px;
+    width: 100%;
+}
+
+nav h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.canvas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+    gap: 4vh;
+}
+
+.btn-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+.head-box{
+    background-color: #05235c;
+    color: white;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    padding: 1vh 4vw;
+    box-shadow: 1px 1px 10px #fff;
+
+}
+.button {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #0e0b0b;
+    display: inline-block;
+    border-radius: 20%;
+    box-shadow: 1px 1px 10px #fff;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+#grey {
+    background: grey;
+}
+
+#white {
+    background: white;
+}
+
+#blue {
+    background: blue;
+}
+
+#yellow {
+    background: yellow;
+}
+
+@media (max-width: 456px) {
+    nav h2{
+        font-size: 1.1rem;
+    }
+}
