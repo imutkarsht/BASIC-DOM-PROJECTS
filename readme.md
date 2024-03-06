@@ -49,6 +49,8 @@ If the guess was correct it simply shows you were right and prompts to ask for a
 - Reset button -  will set color back to White.
 - color generated -  will use an array to display last five colors generated.
 
+### 7- Random Jokes
+> A Random Joke Generator that tells a random Programming joke using joke API and fetch API.
 ---
 
 

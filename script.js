@@ -5,7 +5,8 @@ const projects = [
     { number: 3, name: "Digital Clock", iconClass: "bx bxs-watch", link:"./3-Digital-Clock/index.html"  },
     { number: 4, name: "Guess The Number", iconClass: "bx bxs-confused", link:"./4-Guess-the-number/index.html"  },
     { number: 5, name: "Keyboard", iconClass: "bx bxs-keyboard", link:"./5-Keyboard"  },
-    { number: 6, name: "Unlimited Colors", iconClass: "bx bxs-color", link:"./6-unlimited-colors"  }
+    { number: 6, name: "Unlimited Colors", iconClass: "bx bxs-color", link:"./6-unlimited-colors"  },
+    { number: 7, name: "Random Jokes", iconClass: "bx bxs-laugh", link:"./7-Random-joke"  }
   ];
   
   // Function to dynamically generate HTML
