@@ -53,6 +53,8 @@ If the guess was correct it simply shows you were right and prompts to ask for a
 > A Random Joke Generator that tells a random Programming joke using joke API and fetch API.
 ---
 
+### 8- Currency Converter
+> A currency Converter that gives current exchange rates using Flags API and Currency API.
 
 ## My Links
 

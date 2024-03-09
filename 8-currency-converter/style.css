@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+  }
+  html {
+    font-family: sans-serif;
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10vh;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+nav{
+    color: #fff;
+    background-color: #0378d1;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #0e0b0b;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+nav h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+nav i{
+  font-size: 2rem;
+  padding-left: 2vw;
+}
+  .container {
+    background-color: #05235c;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 20rem;
+  }
+  
+  form {
+    margin: 2rem 0 1rem 0;
+  }
+  
+  form select,
+  button,
+  input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+  }
+  
+  form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+  }
+  
+  .dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .select-container img {
+    max-width: 2rem;
+  }
+  
+  .select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    background: #eee;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+  }
+  
+  .select-container select {
+    font-size: 1rem;
+    width: auto;
+  }
+  
+  .msg {
+    margin: 2rem 0 2rem 0;
+  }
+  
+  form button {
+    height: 3rem;
+    background-color: #fbc31c;;
+    color: #111;
+    font-weight: bolder;
+    font-size: 1.15rem;
+    cursor: pointer;
+  }
