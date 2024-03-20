@@ -1,0 +1,117 @@
+@import 'config', 'header', 'footer';
+
+
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}   
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    font-family: poppins;
+}
+
+.box{
+    font-size: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid $font-color;
+
+    &:hover{
+        background: $accent-color;
+        cursor: pointer;
+    }
+}
+
+
+.gameInfo{
+    padding: 0 6vw;
+
+    .infobox{
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        .info{
+            font-size: 25px;
+        }
+
+        #reset{
+            margin: 0 23px;
+            padding: 5px 16px;
+            font-size: medium;
+            font-weight: 600;
+            color: $font-color;
+            border:3px solid $primary-color;
+            background: $secondary-color;
+            border-radius: 10px;
+            transition: all 0.4s ease-in-out;
+            text-transform: uppercase;
+        
+            &:hover{
+                cursor: pointer;
+                background: $primary-color;
+                color: $secondary-color;
+            }
+        }
+    }
+}
+
+
+.imgbox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+
+.line{
+    background-color: $font-color;
+    height: 3px;
+    width: 0;
+    position: absolute;
+    background-color: $primary-color;
+    transition: width 1s ease-in-out;
+}
+
+@media screen and (max-width: 950px)
+{
+    .gameContainer{
+        flex-wrap: wrap;
+    }
+    .gameInfo{
+        margin-top: 34px;
+    }
+    .gameInfo h1{
+        font-size: 1.5rem;
+    }
+    .container { 
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .line {
+        display: none; /* Hide the line on smaller screens */
+    }
+}

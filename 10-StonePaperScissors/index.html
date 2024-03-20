@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <a href="../index.html"><i class='bx bx-home'></i></a>
+        <h2>Stone Paper Scissors</h2>
+    </nav>
+    <div class="container">
+        <div class="rps-button-container">
+                <button class="btn" id="rock" onclick="
+                    playGame('Rock');
+                ">
+                    <div class="rock">
+                        <img src="images/Rock.png" class="img">
+                    </div>
+                </button>
+               
+                <button class="btn" id="paper" onclick="
+                    playGame('Paper');
+                ">
+                <div class="paper">
+                    <img src="images/Paper.png" class="img">
+                    
+                </div>
+                </button>
+    
+                <button class="btn" id="scissors" onclick="
+                    playGame('Scissors');
+                ">
+                <div class="scissors">
+                    <img src="images/Scissors.png" class="img">
+                </div>
+                </button>
+            </div>
+
+        <div class="display-container">
+            <p class="js-result"></p>
+            <p class="js-moves"></p>
+            <p class="js-score"></p>
+        </div>
+            
+       
+        <div class="resetcontainer">
+            <button class="btn" id="reset" onclick="
+                    score.wins=0;
+                    score.ties =0;
+                    score.losses =0;
+                    updateScoreElement();
+                    localStorage.removeItem('Score');
+            ">
+                Reset Score
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

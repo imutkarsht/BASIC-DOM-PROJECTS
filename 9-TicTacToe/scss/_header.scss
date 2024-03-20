@@ -1,0 +1,31 @@
+nav{
+    background: $primary-color;
+    color: $secondary-color;
+    height: 55px;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-shadow: -3px 1px 5px black;
+    padding: 0 12px;
+    & ul{
+        list-style: none;
+        font-size: larger;
+        font-weight: 600;
+        
+    }
+    & li{
+        background: $primary-color;
+    }
+}
+
+#pm{
+    border: none;
+    background-color: $primary-color;
+    color: $secondary-color;
+    & i{
+        background: transparent;
+        font-size: 3rem;
+        text-shadow: -3px 1px 5px black;
+    }
+}

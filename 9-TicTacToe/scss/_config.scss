@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto&display=swap');
+
+$primary-color: #6643b5;
+$font-color: black;
+$secondary-color: #d5def5;
+$accent-color:#cfc1f0;
+
+*{
+    background-color: $secondary-color;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+
+span{
+    background-color: transparent;
+}

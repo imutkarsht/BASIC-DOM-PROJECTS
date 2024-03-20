@@ -7,7 +7,9 @@ const projects = [
     { number: 5, name: "Keyboard", iconClass: "bx bxs-keyboard", link:"./5-Keyboard"  },
     { number: 6, name: "Unlimited Colors", iconClass: "bx bxs-color", link:"./6-unlimited-colors"  },
     { number: 7, name: "Random Jokes", iconClass: "bx bxs-laugh", link:"./7-Random-joke"  },
-    { number: 8, name: "Currency Converter", iconClass: "bx bx-dollar", link:"./8-currency-converter"  }
+    { number: 8, name: "Currency Converter", iconClass: "bx bx-dollar", link:"./8-currency-converter"  },
+    { number: 9, name: "Tic Tac Toe", iconClass: "bx bx-x", link:"./9-TicTacToe"  },
+    { number: 10, name: "Stone Paper Scissors", iconClass: "bx bxs-hand", link:"./10-StonePaperScissors"  }
   ];
   
   // Function to dynamically generate HTML

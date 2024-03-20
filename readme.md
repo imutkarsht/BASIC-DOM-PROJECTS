@@ -56,6 +56,14 @@ If the guess was correct it simply shows you were right and prompts to ask for a
 ### 8- Currency Converter
 > A currency Converter that gives current exchange rates using Flags API and Currency API.
 
+### 9- Tic Tac Toe
+> Implementation of Tic Tac Toe game using HTML, CSS and JAVASCRIPT.
+- you can play it with two players.
+- Retro music added
+
+### 10- Rock Paper Scissors
+> Implementation of Rock paper scissors using HTML, CSS and JS. One can play it continously and can also keep the last score or reset it.
+
 ## My Links
 
 [Instagram](https://www.instagram.com/im_ut_2308)
